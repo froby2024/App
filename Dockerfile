@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
-WORKDIR .
+WORKDIR /App
 # Copy everything
 COPY . ./
 # Restore as distinct layers
